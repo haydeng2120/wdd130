@@ -1,0 +1,50 @@
+nav {
+    background-color: 143109;
+    padding: 100px;
+}
+
+
+nav {
+    color: efefef;
+    display: block;
+    padding: 20px;
+}
+
+body {
+    font-family: "Newsreader", serif;
+    font-weight: <weight>; 600
+}
+
+h1 {
+    color: f7f7f7;
+    font-family: "Roboto", sans-serif;
+    font-weight: <weight>; 300
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px silver;
+}
+
+p {
+    padding 10px
+}
+
+@font-face {
+    font-weight: 400;
+    font-style:  normal;
+    font-family: circular;
+  
+    src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Book.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-weight: 700;
+    font-style:  normal;
+    font-family: circular;
+  
+    src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Bold.woff2') format('woff2');
+  }
