@@ -41,10 +41,16 @@ main img {
 
 p{
     margin: 1rem;
+    padding: 0;
 }
 
 aside {
     width: 20em;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2); /* 1️⃣ */
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
     text-align: center;
     position: relative;
 }
@@ -62,10 +68,10 @@ aside h2 {
 }
 
 footer {
-    margin-top: 1em;
-    border-top: 1px solid black;
+    margin-top: 15px;
+    border-top: 1px solid #000;
     text-align: center;
-}
+  }
 
 p {
     padding 10px
