@@ -1,8 +1,13 @@
 nav {
-    background-color: 143109;
-    padding: 100px;
+    background-color: steelblue;
+    padding: 10px;
 }
 
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
 
 nav {
     color: efefef;
