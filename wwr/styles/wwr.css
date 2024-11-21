@@ -131,3 +131,9 @@ footer .sociallinks a img {
     height: auto;
     margin: 0 10px;
 }
+
+:root {
+    --primary-color: #steelblue;
+    --secondary-color: #fff;
+    --background-color: #f4f4f9;
+}
