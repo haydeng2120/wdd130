@@ -101,17 +101,18 @@ main {
 }
 
 .hero article {
-    position: absolute; 
+    position: absolute;
     bottom: 10%;
     left: 10%;
-    width: 80%; 
-    background-color: rgba(0, 0, 0, 0.6); 
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.6);
     color: white;
     padding: 0px;
-    border-radius: 10px; 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
-    display: flex; 0/2;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
 }
+
 
 .hero article p {
     font-size: 1rem;
