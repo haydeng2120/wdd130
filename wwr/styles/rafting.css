@@ -1,0 +1,188 @@
+/* Contact Section Styling */
+header {
+    max-width: 840px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 50px;
+}
+
+header img {
+    max-width: 150px;
+    height: auto;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: steelblue;
+    margin: 0;
+    align-items: center;
+
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+    
+}
+
+.logo-box img {
+    height: 125px;
+}
+.contact-info, .profiles, .contact-form {
+    margin: 2rem auto;
+    max-width: 800px;
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid steelblue;
+}
+
+.contact-info p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: steelblue;
+}
+
+.map iframe {
+    width: 100%;
+    height: 350px;
+    border: 2px solid steelblue;
+    border-radius: 10px;
+    margin-top: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Profiles Section */
+.profile-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.profile-gallery figure {
+    text-align: center;
+    flex: 1 1 calc(30% - 20px);
+}
+
+.profile-gallery img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid steelblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-gallery figcaption {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: steelblue;
+}
+
+/* Form Styling */
+/* Form Styling */
+.contact-form form {
+    background-color: var(--background-color);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid steelblue;
+}
+
+.contact-form .form-item {
+    margin-bottom: 0.8rem; /* Reduced margin for tighter spacing */
+    text-align: left;
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-bottom: 0.4rem; /* Closer to input fields */
+    display: block;
+    color: steelblue;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 0.6rem; /* Adjusted padding for a more compact look */
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 0.3rem; /* Closer spacing below labels */
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 80px; /* Reduced height for a smaller message box */
+}
+
+.contact-form .checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem; /* Close spacing between checkboxes */
+    margin-bottom: 1rem;
+}
+
+.contact-form button {
+    background-color: steelblue;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.contact-form button:hover {
+    background-color: #34495e;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: steelblue;
+    color: white;
+    position: relative; 
+}
+
+footer .sociallinks {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 15px; 
+    margin-top: 10px;
+}
+
+footer .sociallinks a img {
+    width: 30px;
+    height: auto;
+}
+
+:root {
+    --primary-color: #steelblue;
+    --secondary-color: #fff;
+    --background-color: #f4f4f9;
+}
