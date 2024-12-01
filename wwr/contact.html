@@ -71,7 +71,7 @@
                     <legend>Contact Us Form</legend>
                     <div class="form-item">
                         <label for="name">Name:</label>
-                        <input type="text" id="name" name="name">
+                        <input type="text" id="name" name="name" required>
                     </div>
                     <div class="form-item">
                         <label for="email">Email:</label>
@@ -79,17 +79,14 @@
                     </div>
                     <div class="form-item">
                         <p>Purpose of Contact:</p>
-                        <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
-                        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-                        <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+                        <label for="general"><input type="radio" id="general" name="purpose" value="general" required> General Inquiry</label>
+                        <label for="reservation"><input type="radio" id="reservation" name="purpose" value="reservation"> Reservation Question</label>
+                        <label for="website"><input type="radio" id="website" name="purpose" value="website"> Website Suggestion</label>
                     </div>
                     <div class="form-item">
                         <label for="message">Message:</label>
                         <textarea id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    <div class="form-item">
-                        <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
-                    </div>
+                    </div>                    
                     <button type="submit">Send Message</button>
                 </fieldset>
             </form>
