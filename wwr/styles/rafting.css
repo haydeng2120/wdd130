@@ -184,3 +184,76 @@ footer .sociallinks a img {
     --secondary-color: #fff;
     --background-color: #f4f4f9;
 }
+
+.hero {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: var(--secondary-color);
+    border-bottom: 2px solid steelblue;
+}
+
+.hero h1 {
+    color: steelblue;
+    font-size: 2rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.cta {
+    text-align: center;
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+}
+.cta a {
+    color: white;
+    background-color: steelblue;
+    padding: 0.6rem 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.cta a:hover {
+    background-color: #34495e;
+}
+
+.trip-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.trip-gallery article {
+    background-color: var(--background-color);
+    padding: 1rem;
+    border: 1px solid steelblue;
+    border-radius: 10px;
+    max-width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.trip-gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+}
+.trip-table th, .trip-table td {
+    padding: 0.8rem;
+    text-align: left;
+    border: 1px solid steelblue;
+}
+.trip-table th {
+    background-color: steelblue;
+    color: white;
+}
+.trip-table tr:nth-child(even) {
+    background-color: var(--secondary-color);
+}
+
